@@ -12,58 +12,291 @@
   <body class="">
       <div class="flex flex-row h-screen">
 
-        <div id="menu" class="w-60 flex flex-col justify-start border-r border-grey-300">
+        <div id="menu" class="w-60 hidden md:flex flex-col justify-start">
           <div class="p-4 bg-white flex items-center">
-            <div class="rounded-full h-8 w-8 bg-blue-300 mr-3"></div>
+            <div class="rounded-full h-8 w-8 bg-indigo-400 mr-3"></div>
             <h1 class="text-indigo-400 text-blod upercase text-xl">Categorias</h1>
           </div>
-          <div class="h-full grid grid-cols-2 justify-items-center items-center text-indigo-400 font-normal">
-            <a href="#" class="h-full w-full flex flex-col hover:bg-gray-100 transition duration-200 ease-in-out justify-center items-center text-center p-1">
-                <div class="rounded-full h-8 w-8 bg-blue-300"></div>
+          <div class="h-full grid grid-cols-2 justify-items-center items-center text-indigo-400 font-normal cursor-pointer">
+            <a href="#copy" class="h-full w-full flex flex-col hover:bg-gray-100 transition duration-200 ease-in-out justify-center items-center text-center p-1">
+                <div class="rounded-full h-8 w-8 bg-green-300"></div>
                 <h2>Copywriting</h2>
             </a>
             <a href="#" class="h-full w-full flex flex-col hover:bg-gray-100 transition duration-200 ease-in-out justify-center items-center text-center p-1">
-                <div class="rounded-full h-8 w-8 bg-blue-300"></div>
-                <h2>Marketing</h2>
+                <div class="rounded-full h-8 w-8 bg-indigo-300"></div>
+                <h2>Emprender</h2>
             </a>
             <a href="#" class="h-full w-full flex flex-col hover:bg-gray-100 transition duration-200 ease-in-out justify-center items-center text-center p-1">
-                <div class="rounded-full h-8 w-8 bg-blue-300"></div>
-                <h2>Identidad Verbal</h2>
+                <div class="rounded-full h-8 w-8 bg-indigo-300"></div>
+                <h2>Email Copywriting</h2>
             </a>
             <a href="#" class="h-full w-full flex flex-col hover:bg-gray-100 transition duration-200 ease-in-out justify-center items-center text-center p-1">
-                <div class="rounded-full h-8 w-8 bg-blue-300"></div>
-                <h2>Tecnicas de Copy</h2>
+                <div class="rounded-full h-8 w-8 bg-indigo-300"></div>
+                <h2>SEO Copywriting</h2>
             </a>
             <a href="#" class="h-full w-full flex flex-col hover:bg-gray-100 transition duration-200 ease-in-out justify-center items-center text-center p-1">
-                <div class="rounded-full h-8 w-8 bg-blue-300"></div>
-                <h2>Marketing</h2>
+                <div class="rounded-full h-8 w-8 bg-indigo-300"></div>
+                <h2>Ejemplos de Copywriting</h2>
             </a>
             <a href="#" class="h-full w-full flex flex-col hover:bg-gray-100 transition duration-200 ease-in-out justify-center items-center text-center p-1">
-              <div class="rounded-full h-8 w-8 bg-blue-300"></div>
-              <h2>Copywriting</h2>
+              <div class="rounded-full h-8 w-8 bg-indigo-300"></div>
+              <h2>Análisis de marcas</h2>
             </a>
             <a href="#" class="h-full w-full flex flex-col hover:bg-gray-100 transition duration-200 ease-in-out justify-center items-center text-center p-1">
-                <div class="rounded-full h-8 w-8 bg-blue-300"></div>
-                <h2>Marketing</h2>
+                <div class="rounded-full h-8 w-8 bg-indigo-300"></div>
+                <h2>Entrevistas</h2>
             </a>
             <a href="#" class="h-full w-full flex flex-col hover:bg-gray-100 transition duration-200 ease-in-out justify-center items-center text-center p-1">
-                <div class="rounded-full h-8 w-8 bg-blue-300"></div>
-                <h2>Copywriting</h2>
+                <div class="rounded-full h-8 w-8 bg-indigo-300"></div>
+                <h2>Storytelling</h2>
             </a>
             <a href="#" class="h-full w-full flex flex-col hover:bg-gray-100 transition duration-200 ease-in-out justify-center items-center text-center p-1">
-              <div class="rounded-full h-8 w-8 bg-blue-300"></div>
-              <h2>Marketing</h2>
-            </a>
-            <a href="#" class="h-full w-full flex flex-col hover:bg-gray-100 transition duration-200 ease-in-out justify-center items-center text-center p-1">
-                <div class="rounded-full h-8 w-8 bg-blue-300"></div>
-                <h2>Copywriting</h2>
-            </a>
+              <div class="rounded-full h-8 w-8 bg-indigo-300"></div>
+              <h2>Recursos</h2>
+          </a>
           </div>
         </div>
 
-        <div id="main" class="flex-auto">
-          <div class=""></div>
-          <div class=""></div>
+        <div id="main" class="flex flex-col flex-auto border-l border-grey-300">
+          <div class="h-16 sticky flex justify-between items-center border-b border-grey-300">
+            <div class="pl-6 flex">
+              <input placeholder="Suscríbete a mi historia" class="h-6 w-64 md:w-96 p-5 pl-12 rounded-lg bg-indigo-100 text-indigo-500 font-normal outline-none relative focus:ring-2 focus:ring-indigo-500">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 absolute top-4 left-9 text-indigo-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+              </input>
+              <a class="bg-indigo-500 hover:bg-indigo-400 text-gray-100 hover:text-white transition duration-200 ease-in-out py-2 px-4 rounded-lg cursor-pointer ml-3">Sí quiero</a>
+            </div>
+            <div class="pr-6 hidden lg:flex">
+              <div class="bg-indigo-300 h-10 w-10 mr-2 rounded-full"></div>
+              <div class="bg-indigo-300 h-10 w-10 mr-2 rounded-full"></div>
+              <div class="bg-indigo-300 h-10 w-10 mr-2 rounded-full"></div>
+              <div class="bg-indigo-300 h-10 w-10 mr-2 rounded-full"></div>
+            </div>
+          </div>
+
+          <div class="h-full overflow-y-scroll px-6 pb-6">
+
+            <div id="copy" class="mb-6">
+              <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6 pt-6">
+                <div class="bg-green-500 h-64 w-full max-w-lg rounded-lg cursor-pointer p-3 relative">
+                  <img class="absolute h-full w-full object-cover top-0 left-0 rounded-lg z-0" src="./images/prueba2.jpeg">
+                  <div class="absolute h-full w-full hover:opacity-70 transition duration-300 ease-in-out bg-indigo-900 opacity-40 top-0 left-0 rounded-lg z-10"></div>
+                  <div class="absolute top-4 left-5 z-20 w-3/4">
+                    <h2 class="text-lg text-white font-medium">My step-by-step guide to landing pages that convert</h2>
+                  </div>
+                  <div class="absolute bottom-4 left-5 flex items-center z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <p class="text-md text-white font-normal">5 min</p>
+                  </div>
+                  <div class="absolute bottom-3.5 right-5 flex items-center z-20">
+                    <p class="text-xs bg-green-500 text-white rounded-full font-normal px-6 py-1.5">Copywriting</p>
+                  </div>
+                </div>
+                <div class="bg-green-500 h-64 w-full max-w-lg rounded-lg cursor-pointer p-3 relative">
+                  <img class="absolute h-full w-full object-cover top-0 left-0 rounded-lg z-0" src="https://images.unsplash.com/photo-1524430017-9e4d0f12aa9c?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDIzNHxxUFlzRHp2Sk9ZY3x8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60">
+                  <div class="absolute h-full w-full hover:opacity-70 transition duration-300 ease-in-out bg-indigo-900 opacity-40 top-0 left-0 rounded-lg z-10"></div>
+                  <div class="absolute top-4 left-5 z-20 w-3/4">
+                    <h2 class="text-lg text-white font-medium">My step-by-step guide to landing pages that convert</h2>
+                  </div>
+                  <div class="absolute bottom-4 left-5 flex items-center z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <p class="text-md text-white font-normal">5 min</p>
+                  </div>
+                  <div class="absolute bottom-3.5 right-5 flex items-center z-20">
+                    <p class="text-xs bg-green-500 text-white rounded-full font-normal px-6 py-1.5">Copywriting</p>
+                  </div>
+                </div>
+                <div class="bg-green-500 h-64 w-full max-w-lg rounded-lg cursor-pointer p-3 relative">
+                  <img class="absolute h-full w-full object-cover top-0 left-0 rounded-lg z-0" src="https://images.unsplash.com/photo-1590017419908-8dd29c3d157e?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDI0MnxxUFlzRHp2Sk9ZY3x8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60">
+                  <div class="absolute h-full w-full hover:opacity-70 transition duration-300 ease-in-out bg-indigo-900 opacity-40 top-0 left-0 rounded-lg z-10"></div>
+                  <div class="absolute top-4 left-5 z-20 w-3/4">
+                    <h2 class="text-lg text-white font-medium">My step-by-step guide to landing pages that convert</h2>
+                  </div>
+                  <div class="absolute bottom-4 left-5 flex items-center z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <p class="text-md text-white font-normal">5 min</p>
+                  </div>
+                  <div class="absolute bottom-3.5 right-5 flex items-center z-20">
+                    <p class="text-xs bg-green-500 text-white rounded-full font-normal px-6 py-1.5">Copywriting</p>
+                  </div>
+                </div>
+               
+              </div>
+            </div>
+
+            <div>
+              <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6">
+                <div class="bg-indigo-500 h-64 w-full rounded-lg cursor-pointer lg:col-span-2 relative">
+                  <img class="absolute h-full w-full object-cover top-0 left-0 rounded-lg z-0" src="https://images.unsplash.com/photo-1631702786837-0bd68d6532aa?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDMxNXxxUFlzRHp2Sk9ZY3x8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60">
+                  <div class="absolute h-full w-full hover:opacity-70 transition duration-300 ease-in-out bg-indigo-900 opacity-40 top-0 left-0 rounded-lg z-10"></div>
+                  <div class="absolute top-4 left-5 z-20 w-3/4">
+                    <h2 class="text-lg text-white font-medium">My step-by-step guide to landing pages that convert</h2>
+                  </div>
+                  <div class="absolute bottom-4 left-5 flex items-center z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <p class="text-md text-white font-normal">5 min</p>
+                  </div>
+                  <div class="absolute bottom-3.5 right-5 flex items-center z-20">
+                    <p class="text-xs bg-green-500 text-white rounded-full font-normal px-6 py-1.5">Copywriting</p>
+                  </div>
+                </div>
+                <div class="bg-green-500 h-96 sm:h-full w-full max-w-lg rounded-lg cursor-pointer p-3 relative lg:row-span-2">
+                  <img class="absolute h-full w-full object-cover top-0 left-0 rounded-lg z-0" src="https://images.unsplash.com/photo-1634256859761-73a432a978b4?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMnx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60">
+                  <div class="absolute h-full w-full hover:opacity-70 transition duration-300 ease-in-out bg-indigo-900 opacity-40 top-0 left-0 rounded-lg z-10"></div>
+                  <div class="absolute top-4 left-5 z-20 w-3/4">
+                    <h2 class="text-lg text-white font-medium">My step-by-step guide to landing pages that convert</h2>
+                  </div>
+                  <div class="absolute bottom-4 left-5 flex items-center z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <p class="text-md text-white font-normal">5 min</p>
+                  </div>
+                  <div class="absolute bottom-3.5 right-5 flex items-center z-20">
+                    <p class="text-xs bg-green-500 text-white rounded-full font-normal px-6 py-1.5">Copywriting</p>
+                  </div>
+                </div>
+                <div class="bg-green-500 h-64 w-full max-w-lg rounded-lg cursor-pointer p-3 relative">
+                  <img class="absolute h-full w-full object-cover top-0 left-0 rounded-lg z-0" src="https://images.unsplash.com/photo-1633121804292-a5b3cf0e9db3?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDg5fHFQWXNEenZKT1ljfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60">
+                  <div class="absolute h-full w-full hover:opacity-70 transition duration-300 ease-in-out bg-indigo-900 opacity-40 top-0 left-0 rounded-lg z-10"></div>
+                  <div class="absolute top-4 left-5 z-20 w-3/4">
+                    <h2 class="text-lg text-white font-medium">My step-by-step guide to landing pages that convert</h2>
+                  </div>
+                  <div class="absolute bottom-4 left-5 flex items-center z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <p class="text-md text-white font-normal">5 min</p>
+                  </div>
+                  <div class="absolute bottom-3.5 right-5 flex items-center z-20">
+                    <p class="text-xs bg-green-500 text-white rounded-full font-normal px-6 py-1.5">Copywriting</p>
+                  </div>
+                </div>
+                <div class="bg-green-500 h-64 w-full max-w-lg rounded-lg cursor-pointer p-3 relative">
+                  <img class="absolute h-full w-full object-cover top-0 left-0 rounded-lg z-0" src="https://images.unsplash.com/photo-1632516643720-e7f5d7d6ecc9?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDIxM3xxUFlzRHp2Sk9ZY3x8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60">
+                  <div class="absolute h-full w-full hover:opacity-70 transition duration-300 ease-in-out bg-indigo-900 opacity-40 top-0 left-0 rounded-lg z-10"></div>
+                  <div class="absolute top-4 left-5 z-20 w-3/4">
+                    <h2 class="text-lg text-white font-medium">My step-by-step guide to landing pages that convert</h2>
+                  </div>
+                  <div class="absolute bottom-4 left-5 flex items-center z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <p class="text-md text-white font-normal">5 min</p>
+                  </div>
+                  <div class="absolute bottom-3.5 right-5 flex items-center z-20">
+                    <p class="text-xs bg-green-500 text-white rounded-full font-normal px-6 py-1.5">Copywriting</p>
+                  </div>
+                </div>
+                <div class="bg-green-500 h-64 w-full max-w-lg rounded-lg cursor-pointer p-3 relative">
+                  <img class="absolute h-full w-full object-cover top-0 left-0 rounded-lg z-0" src="https://images.unsplash.com/photo-1562151270-c7d22ceb586a?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDIwNnxxUFlzRHp2Sk9ZY3x8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60">
+                  <div class="absolute h-full w-full hover:opacity-70 transition duration-300 ease-in-out bg-indigo-900 opacity-40 top-0 left-0 rounded-lg z-10"></div>
+                  <div class="absolute top-4 left-5 z-20 w-3/4">
+                    <h2 class="text-lg text-white font-medium">My step-by-step guide to landing pages that convert</h2>
+                  </div>
+                  <div class="absolute bottom-4 left-5 flex items-center z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <p class="text-md text-white font-normal">5 min</p>
+                  </div>
+                  <div class="absolute bottom-3.5 right-5 flex items-center z-20">
+                    <p class="text-xs bg-green-500 text-white rounded-full font-normal px-6 py-1.5">Copywriting</p>
+                  </div>
+                </div>
+                <div class="bg-green-500 h-64 w-full max-w-lg rounded-lg cursor-pointer p-3 relative">
+                  <img class="absolute h-full w-full object-cover top-0 left-0 rounded-lg z-0" src="https://images.unsplash.com/photo-1613337896091-e8ea225ff608?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE4NXxxUFlzRHp2Sk9ZY3x8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60">
+                  <div class="absolute h-full w-full hover:opacity-70 transition duration-300 ease-in-out bg-indigo-900 opacity-40 top-0 left-0 rounded-lg z-10"></div>
+                  <div class="absolute top-4 left-5 z-20 w-3/4">
+                    <h2 class="text-lg text-white font-medium">My step-by-step guide to landing pages that convert</h2>
+                  </div>
+                  <div class="absolute bottom-4 left-5 flex items-center z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <p class="text-md text-white font-normal">5 min</p>
+                  </div>
+                  <div class="absolute bottom-3.5 right-5 flex items-center z-20">
+                    <p class="text-xs bg-green-500 text-white rounded-full font-normal px-6 py-1.5">Copywriting</p>
+                  </div>
+                </div>
+                <div class="bg-green-500 h-64 w-full max-w-lg rounded-lg cursor-pointer p-3 relative">
+                  <img class="absolute h-full w-full object-cover top-0 left-0 rounded-lg z-0" src="https://images.unsplash.com/photo-1608560648088-7542b67f4b24?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE0NXxxUFlzRHp2Sk9ZY3x8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60">
+                  <div class="absolute h-full w-full hover:opacity-70 transition duration-300 ease-in-out bg-indigo-900 opacity-40 top-0 left-0 rounded-lg z-10"></div>
+                  <div class="absolute top-4 left-5 z-20 w-3/4">
+                    <h2 class="text-lg text-white font-medium">My step-by-step guide to landing pages that convert</h2>
+                  </div>
+                  <div class="absolute bottom-4 left-5 flex items-center z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <p class="text-md text-white font-normal">5 min</p>
+                  </div>
+                  <div class="absolute bottom-3.5 right-5 flex items-center z-20">
+                    <p class="text-xs bg-green-500 text-white rounded-full font-normal px-6 py-1.5">Copywriting</p>
+                  </div>
+                </div>
+                <div class="bg-indigo-500 h-64 sm:h-full w-full rounded-lg cursor-pointer p-3 xl:col-span-2 xl:row-span-2 relative">
+                  <img class="absolute h-full w-full object-cover top-0 left-0 rounded-lg z-0" src="https://images.unsplash.com/photo-1631875828712-d8cc76370d45?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=820&q=80">
+                  <div class="absolute h-full w-full hover:opacity-70 transition duration-300 ease-in-out bg-indigo-900 opacity-40 top-0 left-0 rounded-lg z-10"></div>
+                  <div class="absolute top-4 left-5 z-20 w-3/4">
+                    <h2 class="text-lg text-white font-medium">My step-by-step guide to landing pages that convert</h2>
+                  </div>
+                  <div class="absolute bottom-4 left-5 flex items-center z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <p class="text-md text-white font-normal">5 min</p>
+                  </div>
+                  <div class="absolute bottom-3.5 right-5 flex items-center z-20">
+                    <p class="text-xs bg-green-500 text-white rounded-full font-normal px-6 py-1.5">Copywriting</p>
+                  </div>
+                </div>
+                <div class="bg-green-500 h-64 w-full max-w-lg rounded-lg cursor-pointer p-3 relative">
+                  <img class="absolute h-full w-full object-cover top-0 left-0 rounded-lg z-0" src="https://images.unsplash.com/photo-1632907358818-dbdeb67c9883?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDEzN3xxUFlzRHp2Sk9ZY3x8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60">
+                  <div class="absolute h-full w-full hover:opacity-70 transition duration-300 ease-in-out bg-indigo-900 opacity-40 top-0 left-0 rounded-lg z-10"></div>
+                  <div class="absolute top-4 left-5 z-20 w-3/4">
+                    <h2 class="text-lg text-white font-medium">My step-by-step guide to landing pages that convert</h2>
+                  </div>
+                  <div class="absolute bottom-4 left-5 flex items-center z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <p class="text-md text-white font-normal">5 min</p>
+                  </div>
+                  <div class="absolute bottom-3.5 right-5 flex items-center z-20">
+                    <p class="text-xs bg-green-500 text-white rounded-full font-normal px-6 py-1.5">Copywriting</p>
+                  </div>
+                </div>
+                <div class="bg-green-500 h-64 w-full max-w-lg rounded-lg cursor-pointer p-3 relative">
+                  <img class="absolute h-full w-full object-cover top-0 left-0 rounded-lg z-0" src="https://images.unsplash.com/photo-1633232920566-653f77cebb7f?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDk3fHFQWXNEenZKT1ljfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60">
+                  <div class="absolute h-full w-full hover:opacity-70 transition duration-300 ease-in-out bg-indigo-900 opacity-40 top-0 left-0 rounded-lg z-10"></div>
+                  <div class="absolute top-4 left-5 z-20 w-3/4">
+                    <h2 class="text-lg text-white font-medium">My step-by-step guide to landing pages that convert</h2>
+                  </div>
+                  <div class="absolute bottom-4 left-5 flex items-center z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <p class="text-md text-white font-normal">5 min</p>
+                  </div>
+                  <div class="absolute bottom-3.5 right-5 flex items-center z-20">
+                    <p class="text-xs bg-green-500 text-white rounded-full font-normal px-6 py-1.5">Copywriting</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
         </div>
 
       </div>
