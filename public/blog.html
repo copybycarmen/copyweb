@@ -12,7 +12,7 @@
   <body class="">
       <div class="flex flex-row h-screen">
 
-        <div id="menu" class="w-60 hidden md:flex flex-col justify-start">
+        <div id="menu" class="w-72 hidden md:flex flex-col justify-start">
           <div class="p-4 bg-white flex items-center">
             <a href="/" class="rounded-full h-8 w-8 mr-3 flex items-center justify-center">
               <i class="fas fa-quote-left text-indigo-400 hover:text-indigo-500 text-2xl"></i>
@@ -91,7 +91,13 @@
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
               </input>
-              <a class="bg-indigo-500 hover:bg-indigo-400 text-gray-100 hover:text-white transition duration-200 ease-in-out py-2 px-4 rounded-lg cursor-pointer ml-3">Sí quiero</a>
+              <a class="bg-indigo-500 hover:bg-indigo-400 text-gray-100 hover:text-white transition duration-200 ease-in-out py-2 px-4 rounded-lg cursor-pointer ml-3 flex">
+                <span>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="mr-2 h-6 w-6 text-indigo-100" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                </span>
+                Sí quiero</a>
             </div>
             <div class="pr-6 hidden lg:flex">
               <a href="https://www.instagram.com/copybycarmen/?hl=es" target="_blank" class="h-10 w-10 mr-2 rounded-full flex items-center justify-center">
@@ -115,7 +121,7 @@
               <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6 pt-6">
                 <div class="bg-green-500 h-64 w-full max-w-lg rounded-lg cursor-pointer p-3 relative">
                   <img class="absolute h-full w-full object-cover top-0 left-0 rounded-lg z-0" src="./images/prueba2.jpeg">
-                  <div class="absolute h-full w-full hover:opacity-70 transition duration-300 ease-in-out bg-indigo-900 opacity-40 top-0 left-0 rounded-lg z-10"></div>
+                  <div class="absolute h-full w-full hover:opacity-70 transition duration-300 ease-in-out bg-indigo-900 opacity-20 top-0 left-0 rounded-lg z-10"></div>
                   <div class="absolute top-4 left-5 z-20 w-3/4">
                     <h2 class="text-lg text-white font-medium">My step-by-step guide to landing pages that convert</h2>
                   </div>
@@ -131,7 +137,7 @@
                 </div>
                 <div class="bg-green-500 h-64 w-full max-w-lg rounded-lg cursor-pointer p-3 relative">
                   <img class="absolute h-full w-full object-cover top-0 left-0 rounded-lg z-0" src="https://images.unsplash.com/photo-1524430017-9e4d0f12aa9c?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDIzNHxxUFlzRHp2Sk9ZY3x8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60">
-                  <div class="absolute h-full w-full hover:opacity-70 transition duration-300 ease-in-out bg-indigo-900 opacity-40 top-0 left-0 rounded-lg z-10"></div>
+                  <div class="absolute h-full w-full hover:opacity-70 transition duration-300 ease-in-out bg-indigo-900 opacity-20 top-0 left-0 rounded-lg z-10"></div>
                   <div class="absolute top-4 left-5 z-20 w-3/4">
                     <h2 class="text-lg text-white font-medium">My step-by-step guide to landing pages that convert</h2>
                   </div>
@@ -147,7 +153,7 @@
                 </div>
                 <div class="bg-green-500 h-64 w-full max-w-lg rounded-lg cursor-pointer p-3 relative">
                   <img class="absolute h-full w-full object-cover top-0 left-0 rounded-lg z-0" src="https://images.unsplash.com/photo-1590017419908-8dd29c3d157e?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDI0MnxxUFlzRHp2Sk9ZY3x8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60">
-                  <div class="absolute h-full w-full hover:opacity-70 transition duration-300 ease-in-out bg-indigo-900 opacity-40 top-0 left-0 rounded-lg z-10"></div>
+                  <div class="absolute h-full w-full hover:opacity-70 transition duration-300 ease-in-out bg-indigo-900 opacity-20 top-0 left-0 rounded-lg z-10"></div>
                   <div class="absolute top-4 left-5 z-20 w-3/4">
                     <h2 class="text-lg text-white font-medium">My step-by-step guide to landing pages that convert</h2>
                   </div>
@@ -168,11 +174,11 @@
               </div>
             </div>
 
-            <div>
+            <div id="emprender" class="mb-6">
               <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6">
                 <div class="bg-indigo-500 h-64 w-full rounded-lg cursor-pointer lg:col-span-2 relative">
                   <img class="absolute h-full w-full object-cover top-0 left-0 rounded-lg z-0" src="https://images.unsplash.com/photo-1631702786837-0bd68d6532aa?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDMxNXxxUFlzRHp2Sk9ZY3x8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60">
-                  <div class="absolute h-full w-full hover:opacity-70 transition duration-300 ease-in-out bg-indigo-900 opacity-40 top-0 left-0 rounded-lg z-10"></div>
+                  <div class="absolute h-full w-full hover:opacity-70 transition duration-300 ease-in-out bg-indigo-900 opacity-20 top-0 left-0 rounded-lg z-10"></div>
                   <div class="absolute top-4 left-5 z-20 w-3/4">
                     <h2 class="text-lg text-white font-medium">My step-by-step guide to landing pages that convert</h2>
                   </div>
@@ -188,7 +194,7 @@
                 </div>
                 <div class="bg-green-500 h-96 sm:h-full w-full max-w-lg rounded-lg cursor-pointer p-3 relative lg:row-span-2">
                   <img class="absolute h-full w-full object-cover top-0 left-0 rounded-lg z-0" src="https://images.unsplash.com/photo-1634256859761-73a432a978b4?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMnx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60">
-                  <div class="absolute h-full w-full hover:opacity-70 transition duration-300 ease-in-out bg-indigo-900 opacity-40 top-0 left-0 rounded-lg z-10"></div>
+                  <div class="absolute h-full w-full hover:opacity-70 transition duration-300 ease-in-out bg-indigo-900 opacity-20 top-0 left-0 rounded-lg z-10"></div>
                   <div class="absolute top-4 left-5 z-20 w-3/4">
                     <h2 class="text-lg text-white font-medium">My step-by-step guide to landing pages that convert</h2>
                   </div>
@@ -204,7 +210,7 @@
                 </div>
                 <div class="bg-green-500 h-64 w-full max-w-lg rounded-lg cursor-pointer p-3 relative">
                   <img class="absolute h-full w-full object-cover top-0 left-0 rounded-lg z-0" src="https://images.unsplash.com/photo-1633121804292-a5b3cf0e9db3?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDg5fHFQWXNEenZKT1ljfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60">
-                  <div class="absolute h-full w-full hover:opacity-70 transition duration-300 ease-in-out bg-indigo-900 opacity-40 top-0 left-0 rounded-lg z-10"></div>
+                  <div class="absolute h-full w-full hover:opacity-70 transition duration-300 ease-in-out bg-indigo-900 opacity-20 top-0 left-0 rounded-lg z-10"></div>
                   <div class="absolute top-4 left-5 z-20 w-3/4">
                     <h2 class="text-lg text-white font-medium">My step-by-step guide to landing pages that convert</h2>
                   </div>
@@ -220,7 +226,7 @@
                 </div>
                 <div class="bg-green-500 h-64 w-full max-w-lg rounded-lg cursor-pointer p-3 relative">
                   <img class="absolute h-full w-full object-cover top-0 left-0 rounded-lg z-0" src="https://images.unsplash.com/photo-1632516643720-e7f5d7d6ecc9?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDIxM3xxUFlzRHp2Sk9ZY3x8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60">
-                  <div class="absolute h-full w-full hover:opacity-70 transition duration-300 ease-in-out bg-indigo-900 opacity-40 top-0 left-0 rounded-lg z-10"></div>
+                  <div class="absolute h-full w-full hover:opacity-70 transition duration-300 ease-in-out bg-indigo-900 opacity-20 top-0 left-0 rounded-lg z-10"></div>
                   <div class="absolute top-4 left-5 z-20 w-3/4">
                     <h2 class="text-lg text-white font-medium">My step-by-step guide to landing pages that convert</h2>
                   </div>
@@ -236,7 +242,7 @@
                 </div>
                 <div class="bg-green-500 h-64 w-full max-w-lg rounded-lg cursor-pointer p-3 relative">
                   <img class="absolute h-full w-full object-cover top-0 left-0 rounded-lg z-0" src="https://images.unsplash.com/photo-1562151270-c7d22ceb586a?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDIwNnxxUFlzRHp2Sk9ZY3x8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60">
-                  <div class="absolute h-full w-full hover:opacity-70 transition duration-300 ease-in-out bg-indigo-900 opacity-40 top-0 left-0 rounded-lg z-10"></div>
+                  <div class="absolute h-full w-full hover:opacity-70 transition duration-300 ease-in-out bg-indigo-900 opacity-20 top-0 left-0 rounded-lg z-10"></div>
                   <div class="absolute top-4 left-5 z-20 w-3/4">
                     <h2 class="text-lg text-white font-medium">My step-by-step guide to landing pages that convert</h2>
                   </div>
@@ -252,7 +258,7 @@
                 </div>
                 <div class="bg-green-500 h-64 w-full max-w-lg rounded-lg cursor-pointer p-3 relative">
                   <img class="absolute h-full w-full object-cover top-0 left-0 rounded-lg z-0" src="https://images.unsplash.com/photo-1613337896091-e8ea225ff608?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE4NXxxUFlzRHp2Sk9ZY3x8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60">
-                  <div class="absolute h-full w-full hover:opacity-70 transition duration-300 ease-in-out bg-indigo-900 opacity-40 top-0 left-0 rounded-lg z-10"></div>
+                  <div class="absolute h-full w-full hover:opacity-70 transition duration-300 ease-in-out bg-indigo-900 opacity-20 top-0 left-0 rounded-lg z-10"></div>
                   <div class="absolute top-4 left-5 z-20 w-3/4">
                     <h2 class="text-lg text-white font-medium">My step-by-step guide to landing pages that convert</h2>
                   </div>
@@ -268,7 +274,7 @@
                 </div>
                 <div class="bg-green-500 h-64 w-full max-w-lg rounded-lg cursor-pointer p-3 relative">
                   <img class="absolute h-full w-full object-cover top-0 left-0 rounded-lg z-0" src="https://images.unsplash.com/photo-1608560648088-7542b67f4b24?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE0NXxxUFlzRHp2Sk9ZY3x8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60">
-                  <div class="absolute h-full w-full hover:opacity-70 transition duration-300 ease-in-out bg-indigo-900 opacity-40 top-0 left-0 rounded-lg z-10"></div>
+                  <div class="absolute h-full w-full hover:opacity-70 transition duration-300 ease-in-out bg-indigo-900 opacity-20 top-0 left-0 rounded-lg z-10"></div>
                   <div class="absolute top-4 left-5 z-20 w-3/4">
                     <h2 class="text-lg text-white font-medium">My step-by-step guide to landing pages that convert</h2>
                   </div>
@@ -284,7 +290,7 @@
                 </div>
                 <div class="bg-indigo-500 h-64 sm:h-full w-full rounded-lg cursor-pointer p-3 xl:col-span-2 xl:row-span-2 relative">
                   <img class="absolute h-full w-full object-cover top-0 left-0 rounded-lg z-0" src="https://images.unsplash.com/photo-1631875828712-d8cc76370d45?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=820&q=80">
-                  <div class="absolute h-full w-full hover:opacity-70 transition duration-300 ease-in-out bg-indigo-900 opacity-40 top-0 left-0 rounded-lg z-10"></div>
+                  <div class="absolute h-full w-full hover:opacity-70 transition duration-300 ease-in-out bg-indigo-900 opacity-20 top-0 left-0 rounded-lg z-10"></div>
                   <div class="absolute top-4 left-5 z-20 w-3/4">
                     <h2 class="text-lg text-white font-medium">My step-by-step guide to landing pages that convert</h2>
                   </div>
@@ -300,7 +306,47 @@
                 </div>
                 <div class="bg-green-500 h-64 w-full max-w-lg rounded-lg cursor-pointer p-3 relative">
                   <img class="absolute h-full w-full object-cover top-0 left-0 rounded-lg z-0" src="https://images.unsplash.com/photo-1632907358818-dbdeb67c9883?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDEzN3xxUFlzRHp2Sk9ZY3x8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60">
-                  <div class="absolute h-full w-full hover:opacity-70 transition duration-300 ease-in-out bg-indigo-900 opacity-40 top-0 left-0 rounded-lg z-10"></div>
+                  <div class="absolute h-full w-full hover:opacity-70 transition duration-300 ease-in-out bg-indigo-900 opacity-20 top-0 left-0 rounded-lg z-10"></div>
+                  <div class="absolute top-4 left-5 z-20 w-3/4">
+                    <h2 class="text-lg text-white font-medium">My step-by-step guide to landing pages that convert</h2>
+                  </div>
+                  <div class="absolute bottom-4 left-5 flex items-center z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <p class="text-md text-white font-normal">5 min</p>
+                  </div>
+                  <div class="absolute bottom-3.5 right-5 flex items-center z-20">
+                    <p class="text-xs bg-green-500 text-white rounded-full font-normal px-6 py-1.5">Copywriting</p>
+                  </div>
+                </div>
+                <div id="cta" class="flex flex-col justify-between bg-gradient-to-b from-indigo-400 to-indigo-600 h-64 w-full rounded-lg cursor-pointer p-5 relative">
+                  <div class="z-20 w-3/4">
+                    <h2 class="text-4xl text-white font-medium">Suscríbete a mi newsletter.</h2>
+                  </div>
+                  <div class="flex relative justify-between z-10">
+                    <div class="w-full">
+                      <input placeholder="Suscríbete ahora" class="z-20 flex h-6 w-full p-5 pl-12 rounded-lg bg-indigo-100 text-indigo-500 font-normal outline-none focus:ring-2 focus:ring-indigo-500">
+                    </div>
+                      <svg xmlns="http://www.w3.org/2000/svg" class="absolute top-2 left-3 h-6 w-6 text-indigo-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                      </svg>
+                      <a href="" class="ml-2 flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-indigo-100 hover:text-indigo-800" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                      </a>
+                    </input>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="email-mkt">
+              <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6">
+                <div class="bg-green-500 h-64 w-full max-w-lg rounded-lg cursor-pointer p-3 relative">
+                  <img class="absolute h-full w-full object-cover top-0 left-0 rounded-lg z-0" src="./images/prueba2.jpeg">
+                  <div class="absolute h-full w-full hover:opacity-70 transition duration-300 ease-in-out bg-indigo-900 opacity-20 top-0 left-0 rounded-lg z-10"></div>
                   <div class="absolute top-4 left-5 z-20 w-3/4">
                     <h2 class="text-lg text-white font-medium">My step-by-step guide to landing pages that convert</h2>
                   </div>
@@ -315,8 +361,8 @@
                   </div>
                 </div>
                 <div class="bg-green-500 h-64 w-full max-w-lg rounded-lg cursor-pointer p-3 relative">
-                  <img class="absolute h-full w-full object-cover top-0 left-0 rounded-lg z-0" src="https://images.unsplash.com/photo-1633232920566-653f77cebb7f?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDk3fHFQWXNEenZKT1ljfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60">
-                  <div class="absolute h-full w-full hover:opacity-70 transition duration-300 ease-in-out bg-indigo-900 opacity-40 top-0 left-0 rounded-lg z-10"></div>
+                  <img class="absolute h-full w-full object-cover top-0 left-0 rounded-lg z-0" src="https://images.unsplash.com/photo-1524430017-9e4d0f12aa9c?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDIzNHxxUFlzRHp2Sk9ZY3x8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60">
+                  <div class="absolute h-full w-full hover:opacity-70 transition duration-300 ease-in-out bg-indigo-900 opacity-20 top-0 left-0 rounded-lg z-10"></div>
                   <div class="absolute top-4 left-5 z-20 w-3/4">
                     <h2 class="text-lg text-white font-medium">My step-by-step guide to landing pages that convert</h2>
                   </div>
@@ -327,6 +373,25 @@
                     <p class="text-md text-white font-normal">5 min</p>
                   </div>
                   <div class="absolute bottom-3.5 right-5 flex items-center z-20">
+                    <p class="text-xs bg-green-500 text-white rounded-full font-normal px-6 py-1.5">Copywriting</p>
+                  </div>
+                </div>
+                <div class="bg-green-500 h-64 w-full max-w-lg rounded-lg cursor-pointer p-3 relative">
+                  <img class="absolute h-full w-full object-cover top-0 left-0 rounded-lg z-0" src="https://images.unsplash.com/photo-1590017419908-8dd29c3d157e?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDI0MnxxUFlzRHp2Sk9ZY3x8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60">
+                  <div class="absolute h-full w-full hover:opacity-70 transition duration-300 ease-in-out bg-indigo-900 opacity-20 top-0 left-0 rounded-lg z-10"></div>
+                  <div class="absolute top-4 left-5 z-20 w-3/4">
+                    <h2 class="text-lg text-white font-medium">My step-by-step guide to landing pages that convert</h2>
+                  </div>
+                  <div class="absolute bottom-4 left-5 flex items-center z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <p class="text-md text-white font-normal">5 min</p>
+                  </div>
+                  <div class="absolute bottom-3.5 right-5 flex items-center z-20">
+                    <p class="text-xs bg-blue-500 text-white rounded-full font-normal px-6 py-1.5">Emprendimiento</p>
+                  </div>
+                  <div class="absolute bottom-12 right-5 flex items-center z-20">
                     <p class="text-xs bg-green-500 text-white rounded-full font-normal px-6 py-1.5">Copywriting</p>
                   </div>
                 </div>
