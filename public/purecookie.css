@@ -10,7 +10,7 @@
 
 	padding: 30px 30px 30px 30px;
 
-	background: #232323;
+	background: #93c4fd;
 
 	overflow: hidden;
 
@@ -23,6 +23,9 @@
 	display: block;
 
 	border-radius: 20px;
+
+	box-shadow: 4px 6px 4px 1px rgba(0, 0, 0, 0.05);
+
 }
 
 .cookieConsentContainer .cookieTitle a {
@@ -109,7 +112,7 @@
 
 .cookieConsentContainer .cookiePhoto {
 
-	width: 80px;
+	width: 85px;
 
 	height: 80px;
 
