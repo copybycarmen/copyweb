@@ -10,7 +10,7 @@
 
 	padding: 30px 30px 30px 30px;
 
-	background: #93c4fd;
+	background: #EFEBDA;
 
 	overflow: hidden;
 
@@ -22,7 +22,11 @@
 
 	display: block;
 
-	border-radius: 20px;
+	border-radius: 0px;
+
+	border: solid 2px;
+	
+	border-color: #BE8A57;
 
 	box-shadow: 4px 6px 4px 1px rgba(0, 0, 0, 0.05);
 
@@ -30,11 +34,13 @@
 
 .cookieConsentContainer .cookieTitle a {
 
-	font-family: OpenSans, arial, "sans-serif";
+	font-family: Raleway, arial, "sans-serif";
 
-	color: #FFFFFF;
+	color: #4C3D7F;
 
-	font-size: 22px;
+	font-size: 20px;
+
+	font-weight: 500;
 
 	line-height: 20px;
 
@@ -48,11 +54,11 @@
 
 	padding: 0;
 
-	font-family: OpenSans, arial, "sans-serif";
+	font-family: Raleway, arial, "sans-serif";
 
-	color: #FFFFFF;
+	color: #4C3D7F;
 
-	font-size: 13px;
+	font-size: 15px;
 
 	line-height: 20px;
 
@@ -68,7 +74,7 @@
 
 	font-family: OpenSans, arial, "sans-serif";
 
-	color: #FFFFFF;
+	color: #BE8A57;
 
 	text-decoration: underline;
 
@@ -78,17 +84,15 @@
 
 	display: inline-block;
 
-	font-family: OpenSans, arial, "sans-serif";
+	font-family: Raleway, arial, "sans-serif";
 
-	color: #FFFFFF;
+	color: #BE8A57;
 
-	font-size: 14px;
-
-	font-weight: bold;
+	font-size: 15px;
 
 	margin-top: 14px;
 
-	background: #40e296;
+	background: #19094C;
 
 	box-sizing: border-box; 
 
@@ -98,7 +102,7 @@
 
 	transition: background 0.3s;
 
-	border-radius: 100px;
+	border-radius: 0px;
 
 }
 
@@ -106,7 +110,7 @@
 
 	cursor: pointer;
 
-	background: #3E9B67;
+	background: #4C3D7F;
 
 }
 
